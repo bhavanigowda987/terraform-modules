@@ -1,0 +1,3 @@
+master_password = "layareddytcs@1"
+log_bucket_name = "my-redshift-logs-bucket-unique123"
+
