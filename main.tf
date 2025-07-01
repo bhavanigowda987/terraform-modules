@@ -141,7 +141,7 @@ module "redshift" {
 
   vpc_id          = module.vpc.vpc_id
   subnet_ids      = module.vpc.private_subnets
-  allowed_ips     = ["49.37.134.246/32"]
+  allowed_ips     = ["18.233.156.9/32"]
   log_bucket_name = var.log_bucket_name
 }
 
